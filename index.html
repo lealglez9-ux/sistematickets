@@ -30,7 +30,7 @@
             <form @submit.prevent="handleSubmit">
               <div class="mb-2">
                 <label class="form-label">Nombre</label>
-                <input v-model="form.nombre" class="form-control" type="email" />
+                <input v-model="form.nombre" class="form-control" type="text" />
                 <div v-if="errors.nombre" class="form-text text-danger">{{ errors.nombre }}</div>
               </div>
               <div class="mb-2">
